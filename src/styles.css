@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card {
+  height: max-content;
+  width: 100px;
+  text-align: center;
+  border: 1px solid #f1ebeb6e;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #f1ebeb6e;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 10px;
+}
