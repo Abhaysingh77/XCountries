@@ -31,7 +31,7 @@ export default function App() {
         console.log(data);
         setCountryData(data);
       } catch (err) {
-        console.log(err);
+        console.error(err);
       }
     };
     fetchData();
